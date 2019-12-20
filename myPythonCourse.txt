@@ -1,0 +1,63 @@
+My Python Course
+
+Section 1 - Read Text Files
+	text files
+		read
+			all ways
+		
+Section 2 - Write to Text Files
+		write
+			all ways
+		append
+			all ways
+		write between???
+Section 3 - CSV Files
+
+Section 4 - JSON Files
+
+Section 5 - Binary Files
+
+Section 6 - Directories
+		Using OS
+		Using SHUTIL
+
+
+		List
+			3 ways
+			??? Getting File Attributes ???
+			Create Directories (we saw about files, "x")
+		Filename Pattern Matching
+
+		copy
+		rename
+		delete
+
+		Archiving (zip files)
+
+
+
+		Examples in Directories
+			Traversing Directories and Processing Files	
+			list subdirectories
+
+Section 7 - Examples
+		
+		ex1. copy content of a file ????????
+		ex2. search something in a file
+
+File Handling Examples
+	https://www.sanfoundry.com/c-programming-examples-file-handling/
+
+ 	https://www.includehelp.com/c-programs/file-handling-in-c-solved-programs.aspx
+
+**** Section 8 - read json api, manipulate, write to file
+
+***		try, finally
+
+*** 	https://mockaroo.com/
+
+*** b' ??????????
+
+
+
+

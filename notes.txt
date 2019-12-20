@@ -1,0 +1,31 @@
+Για να αλλάξουμε την τρέχουσα θέση του αρχείου, μπορούμε να χρησιμοποι-
+ήσουμε την fin.seek() (offset[, from_what]). Η θέση υπολογίζεται προσθέτο-
+ντας offset (πλήθος bytes) σε ένα σημείο αναφοράς, το οποίο επιλέγεται από το
+from_what όρισμα. Αν το from_what έχει τιμή 0, μετρά από την αρχή του αρχεί-
+ου, αν έχει 1, χρησιμοποιεί την τρέχουσα θέση του αρχείου και αν έχει 2, χρησι-
+μοποιεί το τέλος του αρχείου.
+
+H μέθοδος fin.tell() επιστρέφει έναν ακέραιο που περιέχει την τρέχουσα θέση
+στο αρχείο, υπολογισμένη σε χαρακτήρες (bytes) από την αρχή του αρχείου.
+Με άλλα λόγια, η επόμενη ανάγνωση ή εγγραφή θα γίνει σε εκείνη τη θέση του
+αρχείου.
+
+
+read numbers from file
+
+read negative numbers from file
+
+There are two kinds of files. Text and binary.
+Text files are human readable data like plain text, xml, json, source code.
+Binary files are used to store compiled code, application data and media such as images, audio and video files.
+
+to open a file in pythn we use the  built in open function
+
+******************** WITH KEYWORD ********************
+no need to close the file
+
+*** what if file does not exist????
+    use try block anfd handlenofound exception
+
+
+
