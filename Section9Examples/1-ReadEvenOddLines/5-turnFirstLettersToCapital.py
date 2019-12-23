@@ -13,3 +13,4 @@ with open("lowerCaseMattise.txt") as fin:
 fout = open("upperCaseFirstLetterMattise.txt", "w")
 fout.writelines(lines)
 fout.close()
+
