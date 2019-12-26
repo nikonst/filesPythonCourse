@@ -2,6 +2,7 @@ str = "sculptor"
 
 fin = open("finn.txt")
 print(fin.read())
+fin.close()
 
 count = 0
 with open("finn.txt") as fin:
