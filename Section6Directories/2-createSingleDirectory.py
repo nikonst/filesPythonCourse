@@ -7,9 +7,9 @@ try:
 except:
     print("Directory exists")
 # to be 
-except FileExistsError as exc:
+'''except FileExistsError as exc:
     print(exc)
-
+'''
 
 #DOESNT KNOW PATH
 # import pathlib

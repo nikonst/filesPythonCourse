@@ -23,4 +23,4 @@ def file_size(file_path):
 # Lets check the file size of MS Paint exe 
 # or you can use any file path
 file_path = r"C:\Windows\System32\mspaint.exe"
-print file_size(file_path)
+print(file_size(file_path))
