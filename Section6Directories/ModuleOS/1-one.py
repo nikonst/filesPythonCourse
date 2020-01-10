@@ -1,7 +1,7 @@
 import os
 
 #os.getcwd()
-print("Current Diroctory:", os.getcwd())
+print("Current Directory:", os.getcwd())
 
 #listdir()
 print(os.listdir())
@@ -57,11 +57,13 @@ for s in sd:
 #os.remove("test.txt")
 
 print("Current Directory:", os.getcwd())
-os.chdir('Section6Directories/ModuleOS')
+#os.chdir('Section6Directories/ModuleOS')
+os.chdir(('..'))
 print("Current Directory:", os.getcwd())
 '''os.chdir('..')
 print("Current Directory:", os.getcwd())
 '''
+
 try:
     os.remove('dir1/dir2/file2.txt')
 except:
